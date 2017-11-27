@@ -1,11 +1,16 @@
 import time
 from selenium import webdriver
+from configparser import ConfigParser
+
 from .definition import *
 
 
 class Search(object):
-    def __init__(self):
-        self.url = 'http://www.lexisnexis.com/ap/academic/?lang=en'
+    def __init__(self, b_pbar=True):
+        config_parser = ConfigParser()
+        config_parser.read("./crawler_config.ini")
+        self.b_pbar = b_pbar
+        self.url = config_parser["crawler"]["url"]
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(10)
 

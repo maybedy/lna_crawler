@@ -5,6 +5,9 @@ from . import Search
 from .db import get_collection
 from tqdm import tqdm
 
+result_name = 'results'
+error_list_name = 'errors'
+
 class Period(object):
     def __init__(self, from_year, from_month, to_year, to_month):
         self.from_year = from_year
@@ -26,13 +29,14 @@ class Period(object):
 
 class Result(object):
     def __init__(self, keywords, period:Period, result):
-        self.keywords = keywords
+        self.keywords = keywords['keywords']
+        self.id = keywords['id']
         self.period = period
         self.result = result
 
     def to_json(self):
         return {
-            'keywords_id': "|".join(sorted(self.keywords)),
+            'keywords_id': self.id,
             'keywords': self.keywords,
             'from_year': self.period.from_year,
             'from_month': self.period.from_month,
@@ -42,20 +46,14 @@ class Result(object):
         }
 
 class Run(object):
-    def __init__(self, input_path, output_path, from_date, to_date):
+    def __init__(self, input_file_name, input_path, output_path, from_year, to_year):
+        self.db_name = input_file_name
         self.input_path = input_path
         self.output_path = output_path
         self.keywords_list = []
-        self.from_date = from_date
-        self.to_date = to_date
-
-        self.period_list = []
-        for year in range(from_date, to_date+1):
-            for i in range(6):
-                month = i * 2 + 1
-                period = Period(year, month, year, month+1)
-                self.period_list.append(period)
-
+        self.from_year = from_year
+        self.to_year = to_year
+        self.search = Search()
         self._load_input()
 
     def _load_input(self):
@@ -63,28 +61,67 @@ class Run(object):
             while True:
                 line = file.readline()
                 if line:
-                    keywords = line.split(",")
+                    words = line.split(",")
+                    keywords = []
+                    keywords_id = words[0]
+                    if keywords_id == "":
+                        continue
+                    for i in range(1, len(words)):
+                        word = words[i].strip()
+                        if word == "" or len(word) == 0 or word == '':
+                            pass
+                        else:
+                            keywords.append(word)
                     keywords = sorted([word.strip() for word in keywords])
-                    self.keywords_list.append(keywords)
+                    self.keywords_list.append({'id': keywords_id, 'keywords':keywords})
                 else:
                     break
 
+    def _search(self, keywords, period:Period):
+        try:
+            result = self.search.search(keywords['keywords'], period.get_str_from(), period.get_str_to())
+            print("Search Success : {}-{} = {},{}".format(period.get_str_from(), period.get_str_to(), str(result),
+                                                          keywords['id']))
+            return result
+        except:
+            print("Error ! : {}-{} = {}".format(period.get_str_from(), period.get_str_to(), keywords['id']))
+            get_collection(db_name=self.db_name, collection_name=error_list_name).insert_one(
+                {"id": keywords['id'],
+                 "keywords": keywords['keywords'],
+                 "from_year": period.from_year,
+                 "from_month":period.from_month,
+                 "to_year": period.to_year,
+                 "to_month": period.to_month})
+            return None
+
+    def _periodic_search(self, keywords, period_list:list):
+        for period in period_list:
+            result = self._search(keywords, period)
+            if result:
+                result = Result(keywords, period, result)
+                get_collection(db_name= self.db_name, collection_name=result_name).insert_one(result.to_json())
+            else:
+                pass
+
+    def _yearly_search(self, keywords, year:int):
+        period = Period(year, 1, year, 12)
+        result = self._search(keywords, period)
+        if result:
+            if result < 3000:
+                result = Result(keywords, period, result)
+                get_collection(db_name=self.db_name, collection_name=result_name).insert_one(result.to_json())
+            else:
+                period_list = []
+                for i in range(6):
+                    period_list.append(Period(year, i * 2 + 1, year, i * 2 + 2))
+                self._periodic_search(keywords, period_list)
+
     def _get_result(self, keywords_list):
-        search = Search()
         print("Search start ! ")
-        pbar = tqdm(total=len(self.period_list) * len(keywords_list))
+        pbar = tqdm(total=(self.to_year - self.from_year + 1) * len(keywords_list))
         for keywords in keywords_list:
-            for period in self.period_list:
-                try:
-                    collection = get_collection(collection_name="results")
-                    result = search.search(keywords, period.get_str_from(), period.get_str_to())
-                    result = Result(keywords, period, result)
-                    collection.insert_one(result.to_json())
-                    print("Search Success : {}-{} = {},{}".format(period.get_str_from(), period.get_str_to(), str(result),"|".join(keywords)))
-                except:
-                    print("Error ! : {}-{} = {}".format(period.get_str_from(), period.get_str_to(), "|".join(keywords)))
-                    collection = get_collection(collection_name="error_list")
-                    collection.insert_one({"keywords": keywords, "from_date": period.get_str_from(), "to_date": period.get_str_to()})
+            for year in range(self.from_year, self.to_year+1):
+                self._yearly_search(keywords, year)
                 pbar.update(1)
 
     def _divide_keywords_list(self, thread_count):
@@ -106,24 +143,21 @@ class Run(object):
 
     def _make_report(self):
         file = open(self.output_path, 'w')
-        collection = get_collection(collection_name="results")
         print("Make Report !")
-        pbar = tqdm(total = len(self.keywords_list) * (self.to_date - self.from_date + 1) * 6)
+        pbar = tqdm(total = len(self.keywords_list) * (self.to_year - self.from_year + 1))
         for keywords in self.keywords_list:
             keywords_id = "|".join(sorted(keywords))
-            for year in range(self.from_date, self.to_date+1):
-                yearly_results = collection.find({"keywords_id": keywords_id, "from_year": year})
+            for year in range(self.from_year, self.to_year+1):
+                yearly_results = get_collection(db_name=self.db_name, collection_name=result_name).find({"keywords_id": keywords_id, "from_year": year})
                 count = 0
                 for result in yearly_results:
                     count += result["result"]
-                    pbar.update(1)
                 file.write(",".join([keywords_id, str(year), str(count)]))
+                pbar.update(1)
 
     def _resolve_errors(self):
-        search = Search()
         while True:
-            collection = get_collection(collection_name="error_list")
-
+            collection = get_collection(db_name=self.db_name, collection_name=error_list_name)
             error_count = collection.count()
             if error_count > 0:
                 print("Last Error Count : {} - RETRY!!!".format(error_count))
@@ -135,23 +169,18 @@ class Run(object):
                     if count >= error_count:
                         break
                     error = next(errors)
-
-                    collection = get_collection(collection_name="error_list")
                     collection.delete_one(error)
                     count += 1
-                    try:
-                        collection = get_collection(collection_name="results")
-                        result = search.search(error['keywords'], error['from_date'], error['to_date'])
-                        from_year = int(error['from_date'].split(".")[0])
-                        from_month = int(error['from_date'].split(".")[1])
-                        to_year = int(error['to_date'].split(".")[0])
-                        to_month = int(error['to_date'].split(".")[1])
+                    from_year = error['from_year']
+                    from_month = error['from_month']
+                    to_year = error['to_date']
+                    to_month = error['to_date']
+                    keywords = {'id': error['id'], 'keywords': error['keywords']}
+                    if from_month == 1 and to_month == 12:
+                        self._yearly_search(keywords, from_year)
+                    else:
                         period = Period(from_year, from_month, to_year, to_month)
-                        result = Result(error['keywords'], period, result)
-                        collection.insert_one(result.to_json())
-                    except:
-                        collection = get_collection(collection_name="error_list")
-                        collection.insert_one(error)
+                        self._periodic_search(keywords, [period])
                     pbar.update(1)
             else:
                 break
