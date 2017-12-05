@@ -1,0 +1,928 @@
+car to car communication,2001,34
+car to car communication,2002,37
+car to car communication,2003,43
+car to car communication,2004,38
+car to car communication,2005,76
+car to car communication,2006,126
+car to car communication,2007,122
+car to car communication,2008,125
+car to car communication,2009,108
+car to car communication,2010,124
+car to car communication,2011,141
+car to car communication,2012,125
+car to car communication,2013,129
+car to car communication,2014,187
+car to car communication,2015,197
+car to car communication,2016,235
+Mobile payment,2001,29
+Mobile payment,2002,8
+Mobile payment,2003,3
+Mobile payment,2004,3
+Mobile payment,2005,20
+Mobile payment,2006,26
+Mobile payment,2007,22
+Mobile payment,2008,3
+Mobile payment,2009,11
+Mobile payment,2010,19
+Mobile payment,2011,79
+Mobile payment,2012,266
+Mobile payment,2013,228
+Mobile payment,2014,963
+Mobile payment,2015,911
+Mobile payment,2016,594
+Blockchain,2001,140
+Blockchain,2002,86
+Blockchain,2003,77
+Blockchain,2004,94
+Blockchain,2005,83
+Blockchain,2006,111
+Blockchain,2007,94
+Blockchain,2008,77
+Blockchain,2009,66
+Blockchain,2010,65
+Blockchain,2011,84
+Blockchain,2012,119
+Blockchain,2013,773
+Blockchain,2014,2213
+Blockchain,2015,1293
+Blockchain,2016,1432
+Virtual Reality,2001,706
+Virtual Reality,2002,509
+Virtual Reality,2003,707
+Virtual Reality,2004,1092
+Virtual Reality,2005,1426
+Virtual Reality,2006,1283
+Virtual Reality,2007,1678
+Virtual Reality,2008,1508
+Virtual Reality,2009,2495
+Virtual Reality,2010,3452
+Virtual Reality,2011,2715
+Virtual Reality,2012,3165
+Virtual Reality,2013,3446
+Virtual Reality,2014,3595
+Virtual Reality,2015,4610
+Virtual Reality,2016,8119
+Agile robots,2001,0
+Agile robots,2002,0
+Agile robots,2003,1
+Agile robots,2004,3
+Agile robots,2005,2
+Agile robots,2006,2
+Agile robots,2007,0
+Agile robots,2008,0
+Agile robots,2009,0
+Agile robots,2010,1
+Agile robots,2011,0
+Agile robots,2012,2
+Agile robots,2013,0
+Agile robots,2014,1
+Agile robots,2015,2
+Agile robots,2016,4
+Smart watches,2001,0
+Smart watches,2002,1
+Smart watches,2003,5
+Smart watches,2004,26
+Smart watches,2005,1
+Smart watches,2006,7
+Smart watches,2007,4
+Smart watches,2008,2
+Smart watches,2009,0
+Smart watches,2010,1
+Smart watches,2011,5
+Smart watches,2012,6
+Smart watches,2013,94
+Smart watches,2014,188
+Smart watches,2015,218
+Smart watches,2016,142
+Deep learning,2001,0
+Deep learning,2002,1
+Deep learning,2003,1
+Deep learning,2004,0
+Deep learning,2005,0
+Deep learning,2006,1
+Deep learning,2007,2
+Deep learning,2008,0
+Deep learning,2009,2
+Deep learning,2010,4
+Deep learning,2011,3
+Deep learning,2012,7
+Deep learning,2013,8
+Deep learning,2014,22
+Deep learning,2015,95
+Deep learning,2016,302
+3d printing,2001,5
+3d printing,2002,4
+3d printing,2003,23
+3d printing,2004,20
+3d printing,2005,23
+3d printing,2006,41
+3d printing,2007,50
+3d printing,2008,47
+3d printing,2009,65
+3d printing,2010,96
+3d printing,2011,195
+3d printing,2012,330
+3d printing,2013,983
+3d printing,2014,1524
+3d printing,2015,1545
+3d printing,2016,1488
+Temporary social media,2001,0
+Temporary social media,2002,0
+Temporary social media,2003,0
+Temporary social media,2004,0
+Temporary social media,2005,0
+Temporary social media,2006,0
+Temporary social media,2007,0
+Temporary social media,2008,0
+Temporary social media,2009,0
+Temporary social media,2010,0
+Temporary social media,2011,0
+Temporary social media,2012,0
+Temporary social media,2013,0
+Temporary social media,2014,0
+Temporary social media,2015,1
+Temporary social media,2016,0
+Industrial robotics,2001,18
+Industrial robotics,2002,13
+Industrial robotics,2003,10
+Industrial robotics,2004,28
+Industrial robotics,2005,70
+Industrial robotics,2006,74
+Industrial robotics,2007,49
+Industrial robotics,2008,26
+Industrial robotics,2009,12
+Industrial robotics,2010,21
+Industrial robotics,2011,34
+Industrial robotics,2012,39
+Industrial robotics,2013,34
+Industrial robotics,2014,87
+Industrial robotics,2015,134
+Industrial robotics,2016,174
+A faster fourier transform,2001,10
+A faster fourier transform,2002,9
+A faster fourier transform,2003,10
+A faster fourier transform,2004,13
+A faster fourier transform,2005,31
+A faster fourier transform,2006,21
+A faster fourier transform,2007,29
+A faster fourier transform,2008,13
+A faster fourier transform,2009,17
+A faster fourier transform,2010,15
+A faster fourier transform,2011,22
+A faster fourier transform,2012,15
+A faster fourier transform,2013,26
+A faster fourier transform,2014,26
+A faster fourier transform,2015,48
+A faster fourier transform,2016,34
+Gestural interfaces,2001,1
+Gestural interfaces,2002,0
+Gestural interfaces,2003,0
+Gestural interfaces,2004,0
+Gestural interfaces,2005,0
+Gestural interfaces,2006,0
+Gestural interfaces,2007,0
+Gestural interfaces,2008,0
+Gestural interfaces,2009,1
+Gestural interfaces,2010,3
+Gestural interfaces,2011,3
+Gestural interfaces,2012,0
+Gestural interfaces,2013,1
+Gestural interfaces,2014,3
+Gestural interfaces,2015,0
+Gestural interfaces,2016,0
+Cloud streaming,2001,1
+Cloud streaming,2002,0
+Cloud streaming,2003,2
+Cloud streaming,2004,0
+Cloud streaming,2005,0
+Cloud streaming,2006,0
+Cloud streaming,2007,0
+Cloud streaming,2008,2
+Cloud streaming,2009,1
+Cloud streaming,2010,0
+Cloud streaming,2011,3
+Cloud streaming,2012,4
+Cloud streaming,2013,0
+Cloud streaming,2014,4
+Cloud streaming,2015,4
+Cloud streaming,2016,4
+Social indexing,2001,0
+Social indexing,2002,0
+Social indexing,2003,0
+Social indexing,2004,0
+Social indexing,2005,4
+Social indexing,2006,2
+Social indexing,2007,3
+Social indexing,2008,3
+Social indexing,2009,5
+Social indexing,2010,2
+Social indexing,2011,1
+Social indexing,2012,1
+Social indexing,2013,0
+Social indexing,2014,2
+Social indexing,2015,1
+Social indexing,2016,0
+3d transistors,2001,0
+3d transistors,2002,0
+3d transistors,2003,0
+3d transistors,2004,0
+3d transistors,2005,1
+3d transistors,2006,1
+3d transistors,2007,0
+3d transistors,2008,1
+3d transistors,2009,1
+3d transistors,2010,1
+3d transistors,2011,5
+3d transistors,2012,4
+3d transistors,2013,1
+3d transistors,2014,2
+3d transistors,2015,1
+3d transistors,2016,1
+Homomorphic encryption,2001,0
+Homomorphic encryption,2002,0
+Homomorphic encryption,2003,0
+Homomorphic encryption,2004,0
+Homomorphic encryption,2005,0
+Homomorphic encryption,2006,0
+Homomorphic encryption,2007,0
+Homomorphic encryption,2008,0
+Homomorphic encryption,2009,2
+Homomorphic encryption,2010,1
+Homomorphic encryption,2011,1
+Homomorphic encryption,2012,0
+Homomorphic encryption,2013,2
+Homomorphic encryption,2014,2
+Homomorphic encryption,2015,0
+Homomorphic encryption,2016,0
+Solid-state batteries,2001,0
+Solid-state batteries,2002,0
+Solid-state batteries,2003,1
+Solid-state batteries,2004,0
+Solid-state batteries,2005,0
+Solid-state batteries,2006,3
+Solid-state batteries,2007,1
+Solid-state batteries,2008,1
+Solid-state batteries,2009,0
+Solid-state batteries,2010,6
+Solid-state batteries,2011,12
+Solid-state batteries,2012,3
+Solid-state batteries,2013,6
+Solid-state batteries,2014,3
+Solid-state batteries,2015,15
+Solid-state batteries,2016,9
+Social tv,2001,0
+Social tv,2002,0
+Social tv,2003,0
+Social tv,2004,0
+Social tv,2005,0
+Social tv,2006,1
+Social tv,2007,6
+Social tv,2008,2
+Social tv,2009,14
+Social tv,2010,28
+Social tv,2011,79
+Social tv,2012,157
+Social tv,2013,98
+Social tv,2014,46
+Social tv,2015,22
+Social tv,2016,13
+Cloud programming,2001,0
+Cloud programming,2002,0
+Cloud programming,2003,0
+Cloud programming,2004,0
+Cloud programming,2005,0
+Cloud programming,2006,0
+Cloud programming,2007,0
+Cloud programming,2008,0
+Cloud programming,2009,0
+Cloud programming,2010,0
+Cloud programming,2011,0
+Cloud programming,2012,0
+Cloud programming,2013,1
+Cloud programming,2014,1
+Cloud programming,2015,0
+Cloud programming,2016,0
+Intelligent software assistant,2001,36
+Intelligent software assistant,2002,19
+Intelligent software assistant,2003,8
+Intelligent software assistant,2004,7
+Intelligent software assistant,2005,8
+Intelligent software assistant,2006,40
+Intelligent software assistant,2007,24
+Intelligent software assistant,2008,20
+Intelligent software assistant,2009,19
+Intelligent software assistant,2010,19
+Intelligent software assistant,2011,44
+Intelligent software assistant,2012,72
+Intelligent software assistant,2013,82
+Intelligent software assistant,2014,93
+Intelligent software assistant,2015,114
+Intelligent software assistant,2016,163
+Software-defined networking,2001,113
+Software-defined networking,2002,76
+Software-defined networking,2003,78
+Software-defined networking,2004,85
+Software-defined networking,2005,81
+Software-defined networking,2006,73
+Software-defined networking,2007,82
+Software-defined networking,2008,106
+Software-defined networking,2009,104
+Software-defined networking,2010,118
+Software-defined networking,2011,144
+Software-defined networking,2012,433
+Software-defined networking,2013,844
+Software-defined networking,2014,971
+Software-defined networking,2015,875
+Software-defined networking,2016,721
+Offline web applications,2001,0
+Offline web applications,2002,0
+Offline web applications,2003,0
+Offline web applications,2004,1
+Offline web applications,2005,0
+Offline web applications,2006,1
+Offline web applications,2007,1
+Offline web applications,2008,0
+Offline web applications,2009,0
+Offline web applications,2010,0
+Offline web applications,2011,0
+Offline web applications,2012,0
+Offline web applications,2013,0
+Offline web applications,2014,0
+Offline web applications,2015,0
+Offline web applications,2016,0
+smartphone,2001,137
+smartphone,2002,172
+smartphone,2003,355
+smartphone,2004,509
+smartphone,2005,591
+smartphone,2006,791
+smartphone,2007,963
+smartphone,2008,1227
+smartphone,2009,2155
+smartphone,2010,4762
+smartphone,2011,9295
+smartphone,2012,12130
+smartphone,2013,12977
+smartphone,2014,11538
+smartphone,2015,10296
+smartphone,2016,9637
+Probabilistic chips,2001,0
+Probabilistic chips,2002,0
+Probabilistic chips,2003,0
+Probabilistic chips,2004,0
+Probabilistic chips,2005,0
+Probabilistic chips,2006,0
+Probabilistic chips,2007,0
+Probabilistic chips,2008,0
+Probabilistic chips,2009,0
+Probabilistic chips,2010,0
+Probabilistic chips,2011,0
+Probabilistic chips,2012,0
+Probabilistic chips,2013,0
+Probabilistic chips,2014,1
+Probabilistic chips,2015,0
+Probabilistic chips,2016,0
+Reality mining,2001,0
+Reality mining,2002,0
+Reality mining,2003,0
+Reality mining,2004,0
+Reality mining,2005,0
+Reality mining,2006,0
+Reality mining,2007,0
+Reality mining,2008,1
+Reality mining,2009,0
+Reality mining,2010,0
+Reality mining,2011,0
+Reality mining,2012,0
+Reality mining,2013,0
+Reality mining,2014,1
+Reality mining,2015,0
+Reality mining,2016,0
+Atomic magnetometers,2001,0
+Atomic magnetometers,2002,0
+Atomic magnetometers,2003,0
+Atomic magnetometers,2004,0
+Atomic magnetometers,2005,0
+Atomic magnetometers,2006,0
+Atomic magnetometers,2007,0
+Atomic magnetometers,2008,0
+Atomic magnetometers,2009,0
+Atomic magnetometers,2010,0
+Atomic magnetometers,2011,2
+Atomic magnetometers,2012,0
+Atomic magnetometers,2013,1
+Atomic magnetometers,2014,1
+Atomic magnetometers,2015,0
+Atomic magnetometers,2016,1
+Supergrids,2001,0
+Supergrids,2002,0
+Supergrids,2003,1
+Supergrids,2004,0
+Supergrids,2005,0
+Supergrids,2006,0
+Supergrids,2007,0
+Supergrids,2008,0
+Supergrids,2009,10
+Supergrids,2010,5
+Supergrids,2011,7
+Supergrids,2012,3
+Supergrids,2013,4
+Supergrids,2014,1
+Supergrids,2015,1
+Supergrids,2016,3
+DVD,2001,3572
+DVD,2002,3909
+DVD,2003,4919
+DVD,2004,7208
+DVD,2005,8758
+DVD,2006,10085
+DVD,2007,9393
+DVD,2008,8060
+DVD,2009,5590
+DVD,2010,5031
+DVD,2011,4591
+DVD,2012,3790
+DVD,2013,3002
+DVD,2014,2743
+DVD,2015,2198
+DVD,2016,1954
+Cognitive radio,2001,0
+Cognitive radio,2002,2
+Cognitive radio,2003,5
+Cognitive radio,2004,12
+Cognitive radio,2005,9
+Cognitive radio,2006,8
+Cognitive radio,2007,16
+Cognitive radio,2008,12
+Cognitive radio,2009,15
+Cognitive radio,2010,30
+Cognitive radio,2011,31
+Cognitive radio,2012,29
+Cognitive radio,2013,23
+Cognitive radio,2014,26
+Cognitive radio,2015,13
+Cognitive radio,2016,24
+Universal authentication,2001,289
+Universal authentication,2002,237
+Universal authentication,2003,208
+Universal authentication,2004,220
+Universal authentication,2005,253
+Universal authentication,2006,275
+Universal authentication,2007,231
+Universal authentication,2008,282
+Universal authentication,2009,234
+Universal authentication,2010,308
+Universal authentication,2011,246
+Universal authentication,2012,204
+Universal authentication,2013,230
+Universal authentication,2014,213
+Universal authentication,2015,192
+Universal authentication,2016,210
+Diffusion tensor imaging,2001,83
+Diffusion tensor imaging,2002,78
+Diffusion tensor imaging,2003,58
+Diffusion tensor imaging,2004,43
+Diffusion tensor imaging,2005,60
+Diffusion tensor imaging,2006,59
+Diffusion tensor imaging,2007,80
+Diffusion tensor imaging,2008,45
+Diffusion tensor imaging,2009,39
+Diffusion tensor imaging,2010,62
+Diffusion tensor imaging,2011,60
+Diffusion tensor imaging,2012,41
+Diffusion tensor imaging,2013,64
+Diffusion tensor imaging,2014,87
+Diffusion tensor imaging,2015,46
+Diffusion tensor imaging,2016,52
+smart grid,2001,1
+smart grid,2002,0
+smart grid,2003,4
+smart grid,2004,2
+smart grid,2005,11
+smart grid,2006,19
+smart grid,2007,91
+smart grid,2008,346
+smart grid,2009,1833
+smart grid,2010,1979
+smart grid,2011,1744
+smart grid,2012,1361
+smart grid,2013,957
+smart grid,2014,735
+smart grid,2015,599
+smart grid,2016,529
+Stretchable silicon,2001,0
+Stretchable silicon,2002,0
+Stretchable silicon,2003,0
+Stretchable silicon,2004,0
+Stretchable silicon,2005,1
+Stretchable silicon,2006,0
+Stretchable silicon,2007,0
+Stretchable silicon,2008,1
+Stretchable silicon,2009,0
+Stretchable silicon,2010,0
+Stretchable silicon,2011,0
+Stretchable silicon,2012,0
+Stretchable silicon,2013,0
+Stretchable silicon,2014,1
+Stretchable silicon,2015,0
+Stretchable silicon,2016,0
+Airborne Networks,2001,3
+Airborne Networks,2002,2
+Airborne Networks,2003,0
+Airborne Networks,2004,8
+Airborne Networks,2005,11
+Airborne Networks,2006,15
+Airborne Networks,2007,9
+Airborne Networks,2008,3
+Airborne Networks,2009,10
+Airborne Networks,2010,2
+Airborne Networks,2011,9
+Airborne Networks,2012,3
+Airborne Networks,2013,2
+Airborne Networks,2014,1
+Airborne Networks,2015,1
+Airborne Networks,2016,7
+Mobile malware,2001,0
+Mobile malware,2002,0
+Mobile malware,2003,0
+Mobile malware,2004,4
+Mobile malware,2005,5
+Mobile malware,2006,1
+Mobile malware,2007,0
+Mobile malware,2008,0
+Mobile malware,2009,1
+Mobile malware,2010,0
+Mobile malware,2011,0
+Mobile malware,2012,0
+Mobile malware,2013,1
+Mobile malware,2014,0
+Mobile malware,2015,0
+Mobile malware,2016,0
+Universal Translation,2001,6
+Universal Translation,2002,2
+Universal Translation,2003,3
+Universal Translation,2004,4
+Universal Translation,2005,1
+Universal Translation,2006,6
+Universal Translation,2007,2
+Universal Translation,2008,3
+Universal Translation,2009,3
+Universal Translation,2010,4
+Universal Translation,2011,3
+Universal Translation,2012,2
+Universal Translation,2013,2
+Universal Translation,2014,3
+Universal Translation,2015,6
+Universal Translation,2016,2
+Electrical grid,2001,798
+Electrical grid,2002,286
+Electrical grid,2003,750
+Electrical grid,2004,454
+Electrical grid,2005,449
+Electrical grid,2006,518
+Electrical grid,2007,649
+Electrical grid,2008,598
+Electrical grid,2009,926
+Electrical grid,2010,860
+Electrical grid,2011,937
+Electrical grid,2012,933
+Electrical grid,2013,799
+Electrical grid,2014,833
+Electrical grid,2015,926
+Electrical grid,2016,820
+Biometrics,2001,880
+Biometrics,2002,910
+Biometrics,2003,772
+Biometrics,2004,1140
+Biometrics,2005,1245
+Biometrics,2006,1319
+Biometrics,2007,1075
+Biometrics,2008,982
+Biometrics,2009,646
+Biometrics,2010,770
+Biometrics,2011,608
+Biometrics,2012,666
+Biometrics,2013,951
+Biometrics,2014,1122
+Biometrics,2015,1165
+Biometrics,2016,1224
+Natural Language Processing,2001,45
+Natural Language Processing,2002,29
+Natural Language Processing,2003,118
+Natural Language Processing,2004,195
+Natural Language Processing,2005,161
+Natural Language Processing,2006,75
+Natural Language Processing,2007,48
+Natural Language Processing,2008,89
+Natural Language Processing,2009,100
+Natural Language Processing,2010,122
+Natural Language Processing,2011,101
+Natural Language Processing,2012,101
+Natural Language Processing,2013,117
+Natural Language Processing,2014,87
+Natural Language Processing,2015,103
+Natural Language Processing,2016,173
+Microphotonics,2001,6
+Microphotonics,2002,1
+Microphotonics,2003,1
+Microphotonics,2004,9
+Microphotonics,2005,2
+Microphotonics,2006,0
+Microphotonics,2007,1
+Microphotonics,2008,0
+Microphotonics,2009,0
+Microphotonics,2010,1
+Microphotonics,2011,1
+Microphotonics,2012,0
+Microphotonics,2013,0
+Microphotonics,2014,0
+Microphotonics,2015,4
+Microphotonics,2016,3
+Digital Rights Management,2001,531
+Digital Rights Management,2002,299
+Digital Rights Management,2003,208
+Digital Rights Management,2004,335
+Digital Rights Management,2005,378
+Digital Rights Management,2006,437
+Digital Rights Management,2007,507
+Digital Rights Management,2008,321
+Digital Rights Management,2009,155
+Digital Rights Management,2010,168
+Digital Rights Management,2011,152
+Digital Rights Management,2012,137
+Digital Rights Management,2013,136
+Digital Rights Management,2014,142
+Digital Rights Management,2015,142
+Digital Rights Management,2016,99
+Data Mining,2001,479
+Data Mining,2002,256
+Data Mining,2003,212
+Data Mining,2004,235
+Data Mining,2005,215
+Data Mining,2006,302
+Data Mining,2007,325
+Data Mining,2008,206
+Data Mining,2009,174
+Data Mining,2010,191
+Data Mining,2011,238
+Data Mining,2012,229
+Data Mining,2013,336
+Data Mining,2014,239
+Data Mining,2015,175
+Data Mining,2016,188
+Distributed Storage,2001,35
+Distributed Storage,2002,55
+Distributed Storage,2003,57
+Distributed Storage,2004,21
+Distributed Storage,2005,15
+Distributed Storage,2006,10
+Distributed Storage,2007,2
+Distributed Storage,2008,4
+Distributed Storage,2009,2
+Distributed Storage,2010,15
+Distributed Storage,2011,9
+Distributed Storage,2012,32
+Distributed Storage,2013,14
+Distributed Storage,2014,16
+Distributed Storage,2015,25
+Distributed Storage,2016,35
+Drone,2001,243
+Drone,2002,388
+Drone,2003,414
+Drone,2004,558
+Drone,2005,761
+Drone,2006,860
+Drone,2007,643
+Drone,2008,919
+Drone,2009,1237
+Drone,2010,1701
+Drone,2011,2249
+Drone,2012,2820
+Drone,2013,5225
+Drone,2014,4328
+Drone,2015,6226
+Drone,2016,6266
+Desalination,2001,123
+Desalination,2002,96
+Desalination,2003,141
+Desalination,2004,134
+Desalination,2005,198
+Desalination,2006,189
+Desalination,2007,259
+Desalination,2008,220
+Desalination,2009,303
+Desalination,2010,343
+Desalination,2011,277
+Desalination,2012,328
+Desalination,2013,300
+Desalination,2014,326
+Desalination,2015,461
+Desalination,2016,281
+Photovoltaic energy,2001,350
+Photovoltaic energy,2002,309
+Photovoltaic energy,2003,303
+Photovoltaic energy,2004,385
+Photovoltaic energy,2005,671
+Photovoltaic energy,2006,1359
+Photovoltaic energy,2007,2470
+Photovoltaic energy,2008,3361
+Photovoltaic energy,2009,3769
+Photovoltaic energy,2010,4714
+Photovoltaic energy,2011,5028
+Photovoltaic energy,2012,3867
+Photovoltaic energy,2013,3204
+Photovoltaic energy,2014,2943
+Photovoltaic energy,2015,2843
+Photovoltaic energy,2016,2577
+solarthermal energy,2001,1
+solarthermal energy,2002,0
+solarthermal energy,2003,0
+solarthermal energy,2004,0
+solarthermal energy,2005,0
+solarthermal energy,2006,17
+solarthermal energy,2007,27
+solarthermal energy,2008,38
+solarthermal energy,2009,42
+solarthermal energy,2010,76
+solarthermal energy,2011,45
+solarthermal energy,2012,33
+solarthermal energy,2013,17
+solarthermal energy,2014,8
+solarthermal energy,2015,16
+solarthermal energy,2016,5
+geothermal energy,2001,58
+geothermal energy,2002,26
+geothermal energy,2003,37
+geothermal energy,2004,36
+geothermal energy,2005,51
+geothermal energy,2006,115
+geothermal energy,2007,202
+geothermal energy,2008,254
+geothermal energy,2009,307
+geothermal energy,2010,265
+geothermal energy,2011,270
+geothermal energy,2012,185
+geothermal energy,2013,175
+geothermal energy,2014,142
+geothermal energy,2015,164
+geothermal energy,2016,132
+wind energy,2001,324
+wind energy,2002,359
+wind energy,2003,536
+wind energy,2004,755
+wind energy,2005,1068
+wind energy,2006,1392
+wind energy,2007,2278
+wind energy,2008,3824
+wind energy,2009,4826
+wind energy,2010,5069
+wind energy,2011,4141
+wind energy,2012,3874
+wind energy,2013,2988
+wind energy,2014,2607
+wind energy,2015,2182
+wind energy,2016,2163
+biomass,2001,199
+biomass,2002,175
+biomass,2003,164
+biomass,2004,230
+biomass,2005,404
+biomass,2006,692
+biomass,2007,1182
+biomass,2008,1319
+biomass,2009,1509
+biomass,2010,1789
+biomass,2011,1837
+biomass,2012,1285
+biomass,2013,1176
+biomass,2014,1047
+biomass,2015,844
+biomass,2016,851
+Enviromatics,2001,0
+Enviromatics,2002,0
+Enviromatics,2003,0
+Enviromatics,2004,0
+Enviromatics,2005,0
+Enviromatics,2006,0
+Enviromatics,2007,0
+Enviromatics,2008,0
+Enviromatics,2009,1
+Enviromatics,2010,0
+Enviromatics,2011,1
+Enviromatics,2012,0
+Enviromatics,2013,2
+Enviromatics,2014,0
+Enviromatics,2015,2
+Enviromatics,2016,0
+biofuel,2001,157
+biofuel,2002,140
+biofuel,2003,174
+biofuel,2004,197
+biofuel,2005,735
+biofuel,2006,1927
+biofuel,2007,3964
+biofuel,2008,3799
+biofuel,2009,2767
+biofuel,2010,2571
+biofuel,2011,2558
+biofuel,2012,2126
+biofuel,2013,1847
+biofuel,2014,1504
+biofuel,2015,1350
+biofuel,2016,991
+natural gas,2001,8483
+natural gas,2002,5178
+natural gas,2003,5755
+natural gas,2004,7041
+natural gas,2005,10803
+natural gas,2006,11865
+natural gas,2007,11537
+natural gas,2008,12663
+natural gas,2009,10738
+natural gas,2010,13393
+natural gas,2011,16070
+natural gas,2012,16265
+natural gas,2013,15054
+natural gas,2014,14082
+natural gas,2015,11166
+natural gas,2016,10601
+bioplastic,2001,0
+bioplastic,2002,4
+bioplastic,2003,3
+bioplastic,2004,1
+bioplastic,2005,2
+bioplastic,2006,10
+bioplastic,2007,54
+bioplastic,2008,69
+bioplastic,2009,59
+bioplastic,2010,105
+bioplastic,2011,121
+bioplastic,2012,101
+bioplastic,2013,139
+bioplastic,2014,78
+bioplastic,2015,68
+bioplastic,2016,91
+HEV,2001,164
+HEV,2002,139
+HEV,2003,218
+HEV,2004,454
+HEV,2005,860
+HEV,2006,940
+HEV,2007,1215
+HEV,2008,1358
+HEV,2009,1122
+HEV,2010,1038
+HEV,2011,867
+HEV,2012,771
+HEV,2013,612
+HEV,2014,491
+HEV,2015,446
+HEV,2016,417
+Green concrete,2001,0
+Green concrete,2002,0
+Green concrete,2003,3
+Green concrete,2004,0
+Green concrete,2005,5
+Green concrete,2006,4
+Green concrete,2007,3
+Green concrete,2008,6
+Green concrete,2009,9
+Green concrete,2010,5
+Green concrete,2011,3
+Green concrete,2012,1
+Green concrete,2013,4
+Green concrete,2014,3
+Green concrete,2015,2
+Green concrete,2016,4
+Liquid battery,2001,0
+Liquid battery,2002,0
+Liquid battery,2003,0
+Liquid battery,2004,0
+Liquid battery,2005,0
+Liquid battery,2006,0
+Liquid battery,2007,0
+Liquid battery,2008,0
+Liquid battery,2009,1
+Liquid battery,2010,0
+Liquid battery,2011,2
+Liquid battery,2012,5
+Liquid battery,2013,0
+Liquid battery,2014,3
+Liquid battery,2015,3
+Liquid battery,2016,4
+Hydropower,2001,183
+Hydropower,2002,123
+Hydropower,2003,88
+Hydropower,2004,145
+Hydropower,2005,167
+Hydropower,2006,222
+Hydropower,2007,302
+Hydropower,2008,380
+Hydropower,2009,454
+Hydropower,2010,494
+Hydropower,2011,777
+Hydropower,2012,653
+Hydropower,2013,848
+Hydropower,2014,533
+Hydropower,2015,543
+Hydropower,2016,532

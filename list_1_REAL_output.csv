@@ -1,0 +1,944 @@
+gene therapy,2001,471
+gene therapy,2002,339
+gene therapy,2003,245
+gene therapy,2004,277
+gene therapy,2005,360
+gene therapy,2006,256
+gene therapy,2007,292
+gene therapy,2008,245
+gene therapy,2009,181
+gene therapy,2010,172
+gene therapy,2011,291
+gene therapy,2012,213
+gene therapy,2013,272
+gene therapy,2014,445
+gene therapy,2015,677
+gene therapy,2016,849
+cell atlas,2001,0
+cell atlas,2002,0
+cell atlas,2003,0
+cell atlas,2004,0
+cell atlas,2005,0
+cell atlas,2006,0
+cell atlas,2007,0
+cell atlas,2008,0
+cell atlas,2009,0
+cell atlas,2010,0
+cell atlas,2011,0
+cell atlas,2012,0
+cell atlas,2013,0
+cell atlas,2014,0
+cell atlas,2015,0
+cell atlas,2016,5
+immune engineering,2001,0
+immune engineering,2002,0
+immune engineering,2003,0
+immune engineering,2004,0
+immune engineering,2005,0
+immune engineering,2006,0
+immune engineering,2007,0
+immune engineering,2008,0
+immune engineering,2009,0
+immune engineering,2010,0
+immune engineering,2011,0
+immune engineering,2012,0
+immune engineering,2013,0
+immune engineering,2014,1
+immune engineering,2015,1
+immune engineering,2016,3
+DNA app store,2001,0
+DNA app store,2002,0
+DNA app store,2003,0
+DNA app store,2004,0
+DNA app store,2005,0
+DNA app store,2006,0
+DNA app store,2007,0
+DNA app store,2008,0
+DNA app store,2009,0
+DNA app store,2010,0
+DNA app store,2011,0
+DNA app store,2012,0
+DNA app store,2013,0
+DNA app store,2014,0
+DNA app store,2015,0
+DNA app store,2016,0
+liquid biopsy,2001,0
+liquid biopsy,2002,0
+liquid biopsy,2003,0
+liquid biopsy,2004,0
+liquid biopsy,2005,0
+liquid biopsy,2006,0
+liquid biopsy,2007,1
+liquid biopsy,2008,0
+liquid biopsy,2009,0
+liquid biopsy,2010,2
+liquid biopsy,2011,3
+liquid biopsy,2012,4
+liquid biopsy,2013,9
+liquid biopsy,2014,28
+liquid biopsy,2015,210
+liquid biopsy,2016,253
+internet of dna,2001,58
+internet of dna,2002,79
+internet of dna,2003,91
+internet of dna,2004,154
+internet of dna,2005,92
+internet of dna,2006,83
+internet of dna,2007,63
+internet of dna,2008,110
+internet of dna,2009,66
+internet of dna,2010,85
+internet of dna,2011,64
+internet of dna,2012,75
+internet of dna,2013,63
+internet of dna,2014,37
+internet of dna,2015,31
+internet of dna,2016,38
+Brain mapping,2001,6
+Brain mapping,2002,2
+Brain mapping,2003,21
+Brain mapping,2004,11
+Brain mapping,2005,6
+Brain mapping,2006,14
+Brain mapping,2007,24
+Brain mapping,2008,14
+Brain mapping,2009,19
+Brain mapping,2010,10
+Brain mapping,2011,15
+Brain mapping,2012,22
+Brain mapping,2013,50
+Brain mapping,2014,45
+Brain mapping,2015,21
+Brain mapping,2016,26
+Neuromorphic chips,2001,0
+Neuromorphic chips,2002,0
+Neuromorphic chips,2003,0
+Neuromorphic chips,2004,0
+Neuromorphic chips,2005,1
+Neuromorphic chips,2006,0
+Neuromorphic chips,2007,0
+Neuromorphic chips,2008,0
+Neuromorphic chips,2009,0
+Neuromorphic chips,2010,0
+Neuromorphic chips,2011,0
+Neuromorphic chips,2012,0
+Neuromorphic chips,2013,0
+Neuromorphic chips,2014,2
+Neuromorphic chips,2015,2
+Neuromorphic chips,2016,8
+Genome editing,2001,1
+Genome editing,2002,1
+Genome editing,2003,10
+Genome editing,2004,1
+Genome editing,2005,1
+Genome editing,2006,0
+Genome editing,2007,0
+Genome editing,2008,3
+Genome editing,2009,4
+Genome editing,2010,3
+Genome editing,2011,11
+Genome editing,2012,17
+Genome editing,2013,35
+Genome editing,2014,85
+Genome editing,2015,320
+Genome editing,2016,483
+supercharged photosynthesis,2001,0
+supercharged photosynthesis,2002,0
+supercharged photosynthesis,2003,0
+supercharged photosynthesis,2004,0
+supercharged photosynthesis,2005,0
+supercharged photosynthesis,2006,0
+supercharged photosynthesis,2007,0
+supercharged photosynthesis,2008,0
+supercharged photosynthesis,2009,0
+supercharged photosynthesis,2010,0
+supercharged photosynthesis,2011,0
+supercharged photosynthesis,2012,0
+supercharged photosynthesis,2013,0
+supercharged photosynthesis,2014,0
+supercharged photosynthesis,2015,0
+supercharged photosynthesis,2016,0
+Memory implants,2001,4
+Memory implants,2002,13
+Memory implants,2003,9
+Memory implants,2004,16
+Memory implants,2005,4
+Memory implants,2006,8
+Memory implants,2007,16
+Memory implants,2008,5
+Memory implants,2009,4
+Memory implants,2010,10
+Memory implants,2011,10
+Memory implants,2012,12
+Memory implants,2013,12
+Memory implants,2014,25
+Memory implants,2015,10
+Memory implants,2016,24
+Prenatal dna sequencing,2001,3
+Prenatal dna sequencing,2002,2
+Prenatal dna sequencing,2003,2
+Prenatal dna sequencing,2004,1
+Prenatal dna sequencing,2005,3
+Prenatal dna sequencing,2006,0
+Prenatal dna sequencing,2007,2
+Prenatal dna sequencing,2008,1
+Prenatal dna sequencing,2009,6
+Prenatal dna sequencing,2010,8
+Prenatal dna sequencing,2011,7
+Prenatal dna sequencing,2012,5
+Prenatal dna sequencing,2013,5
+Prenatal dna sequencing,2014,8
+Prenatal dna sequencing,2015,5
+Prenatal dna sequencing,2016,2
+Egg stem cells,2001,0
+Egg stem cells,2002,1
+Egg stem cells,2003,1
+Egg stem cells,2004,0
+Egg stem cells,2005,0
+Egg stem cells,2006,0
+Egg stem cells,2007,2
+Egg stem cells,2008,0
+Egg stem cells,2009,0
+Egg stem cells,2010,0
+Egg stem cells,2011,1
+Egg stem cells,2012,0
+Egg stem cells,2013,0
+Egg stem cells,2014,0
+Egg stem cells,2015,0
+Egg stem cells,2016,0
+Cancer genomics,2001,66
+Cancer genomics,2002,72
+Cancer genomics,2003,43
+Cancer genomics,2004,55
+Cancer genomics,2005,75
+Cancer genomics,2006,71
+Cancer genomics,2007,75
+Cancer genomics,2008,87
+Cancer genomics,2009,72
+Cancer genomics,2010,81
+Cancer genomics,2011,102
+Cancer genomics,2012,128
+Cancer genomics,2013,179
+Cancer genomics,2014,132
+Cancer genomics,2015,147
+Cancer genomics,2016,151
+Separating chromosomes,2001,9
+Separating chromosomes,2002,2
+Separating chromosomes,2003,3
+Separating chromosomes,2004,1
+Separating chromosomes,2005,7
+Separating chromosomes,2006,3
+Separating chromosomes,2007,6
+Separating chromosomes,2008,1
+Separating chromosomes,2009,3
+Separating chromosomes,2010,10
+Separating chromosomes,2011,10
+Separating chromosomes,2012,1
+Separating chromosomes,2013,5
+Separating chromosomes,2014,9
+Separating chromosomes,2015,9
+Separating chromosomes,2016,5
+Synthetic cells,2001,0
+Synthetic cells,2002,0
+Synthetic cells,2003,1
+Synthetic cells,2004,0
+Synthetic cells,2005,1
+Synthetic cells,2006,1
+Synthetic cells,2007,0
+Synthetic cells,2008,2
+Synthetic cells,2009,3
+Synthetic cells,2010,20
+Synthetic cells,2011,4
+Synthetic cells,2012,2
+Synthetic cells,2013,1
+Synthetic cells,2014,7
+Synthetic cells,2015,3
+Synthetic cells,2016,10
+Engineered stem cells,2001,0
+Engineered stem cells,2002,1
+Engineered stem cells,2003,2
+Engineered stem cells,2004,0
+Engineered stem cells,2005,2
+Engineered stem cells,2006,0
+Engineered stem cells,2007,4
+Engineered stem cells,2008,4
+Engineered stem cells,2009,2
+Engineered stem cells,2010,2
+Engineered stem cells,2011,0
+Engineered stem cells,2012,4
+Engineered stem cells,2013,3
+Engineered stem cells,2014,1
+Engineered stem cells,2015,1
+Engineered stem cells,2016,4
+Dual action antibodies,2001,0
+Dual action antibodies,2002,0
+Dual action antibodies,2003,0
+Dual action antibodies,2004,0
+Dual action antibodies,2005,0
+Dual action antibodies,2006,0
+Dual action antibodies,2007,0
+Dual action antibodies,2008,0
+Dual action antibodies,2009,0
+Dual action antibodies,2010,0
+Dual action antibodies,2011,0
+Dual action antibodies,2012,0
+Dual action antibodies,2013,0
+Dual action antibodies,2014,0
+Dual action antibodies,2015,1
+Dual action antibodies,2016,0
+Connectomics,2001,0
+Connectomics,2002,0
+Connectomics,2003,0
+Connectomics,2004,0
+Connectomics,2005,0
+Connectomics,2006,0
+Connectomics,2007,0
+Connectomics,2008,0
+Connectomics,2009,2
+Connectomics,2010,11
+Connectomics,2011,1
+Connectomics,2012,6
+Connectomics,2013,8
+Connectomics,2014,11
+Connectomics,2015,5
+Connectomics,2016,12
+Cellulolytic enzymes,2001,0
+Cellulolytic enzymes,2002,0
+Cellulolytic enzymes,2003,0
+Cellulolytic enzymes,2004,0
+Cellulolytic enzymes,2005,0
+Cellulolytic enzymes,2006,0
+Cellulolytic enzymes,2007,0
+Cellulolytic enzymes,2008,0
+Cellulolytic enzymes,2009,0
+Cellulolytic enzymes,2010,0
+Cellulolytic enzymes,2011,0
+Cellulolytic enzymes,2012,0
+Cellulolytic enzymes,2013,0
+Cellulolytic enzymes,2014,0
+Cellulolytic enzymes,2015,0
+Cellulolytic enzymes,2016,0
+Neuron control,2001,0
+Neuron control,2002,1
+Neuron control,2003,0
+Neuron control,2004,2
+Neuron control,2005,9
+Neuron control,2006,2
+Neuron control,2007,0
+Neuron control,2008,2
+Neuron control,2009,3
+Neuron control,2010,3
+Neuron control,2011,7
+Neuron control,2012,2
+Neuron control,2013,4
+Neuron control,2014,8
+Neuron control,2015,7
+Neuron control,2016,5
+Single-cell analysis,2001,1
+Single-cell analysis,2002,0
+Single-cell analysis,2003,4
+Single-cell analysis,2004,7
+Single-cell analysis,2005,1
+Single-cell analysis,2006,1
+Single-cell analysis,2007,1
+Single-cell analysis,2008,0
+Single-cell analysis,2009,0
+Single-cell analysis,2010,11
+Single-cell analysis,2011,14
+Single-cell analysis,2012,10
+Single-cell analysis,2013,9
+Single-cell analysis,2014,23
+Single-cell analysis,2015,25
+Single-cell analysis,2016,36
+Epigenetics,2001,8
+Epigenetics,2002,6
+Epigenetics,2003,4
+Epigenetics,2004,8
+Epigenetics,2005,19
+Epigenetics,2006,45
+Epigenetics,2007,43
+Epigenetics,2008,51
+Epigenetics,2009,56
+Epigenetics,2010,105
+Epigenetics,2011,111
+Epigenetics,2012,146
+Epigenetics,2013,154
+Epigenetics,2014,144
+Epigenetics,2015,213
+Epigenetics,2016,210
+Interactomics,2001,0
+Interactomics,2002,0
+Interactomics,2003,0
+Interactomics,2004,0
+Interactomics,2005,2
+Interactomics,2006,2
+Interactomics,2007,0
+Interactomics,2008,0
+Interactomics,2009,3
+Interactomics,2010,3
+Interactomics,2011,2
+Interactomics,2012,0
+Interactomics,2013,1
+Interactomics,2014,1
+Interactomics,2015,3
+Interactomics,2016,1
+Nuclear reprogramming,2001,0
+Nuclear reprogramming,2002,1
+Nuclear reprogramming,2003,0
+Nuclear reprogramming,2004,0
+Nuclear reprogramming,2005,0
+Nuclear reprogramming,2006,0
+Nuclear reprogramming,2007,2
+Nuclear reprogramming,2008,1
+Nuclear reprogramming,2009,1
+Nuclear reprogramming,2010,0
+Nuclear reprogramming,2011,1
+Nuclear reprogramming,2012,0
+Nuclear reprogramming,2013,0
+Nuclear reprogramming,2014,0
+Nuclear reprogramming,2015,0
+Nuclear reprogramming,2016,0
+Metabolomics,2001,12
+Metabolomics,2002,11
+Metabolomics,2003,9
+Metabolomics,2004,29
+Metabolomics,2005,47
+Metabolomics,2006,37
+Metabolomics,2007,35
+Metabolomics,2008,40
+Metabolomics,2009,35
+Metabolomics,2010,48
+Metabolomics,2011,40
+Metabolomics,2012,35
+Metabolomics,2013,59
+Metabolomics,2014,80
+Metabolomics,2015,58
+Metabolomics,2016,65
+Bacterial Factories,2001,0
+Bacterial Factories,2002,0
+Bacterial Factories,2003,0
+Bacterial Factories,2004,1
+Bacterial Factories,2005,0
+Bacterial Factories,2006,0
+Bacterial Factories,2007,1
+Bacterial Factories,2008,0
+Bacterial Factories,2009,0
+Bacterial Factories,2010,0
+Bacterial Factories,2011,0
+Bacterial Factories,2012,2
+Bacterial Factories,2013,0
+Bacterial Factories,2014,0
+Bacterial Factories,2015,3
+Bacterial Factories,2016,1
+Biomechatronics,2001,0
+Biomechatronics,2002,0
+Biomechatronics,2003,0
+Biomechatronics,2004,0
+Biomechatronics,2005,0
+Biomechatronics,2006,2
+Biomechatronics,2007,0
+Biomechatronics,2008,1
+Biomechatronics,2009,0
+Biomechatronics,2010,1
+Biomechatronics,2011,2
+Biomechatronics,2012,6
+Biomechatronics,2013,2
+Biomechatronics,2014,2
+Biomechatronics,2015,0
+Biomechatronics,2016,0
+Paper diagnostics,2001,0
+Paper diagnostics,2002,0
+Paper diagnostics,2003,0
+Paper diagnostics,2004,0
+Paper diagnostics,2005,0
+Paper diagnostics,2006,0
+Paper diagnostics,2007,0
+Paper diagnostics,2008,0
+Paper diagnostics,2009,0
+Paper diagnostics,2010,0
+Paper diagnostics,2011,2
+Paper diagnostics,2012,0
+Paper diagnostics,2013,1
+Paper diagnostics,2014,1
+Paper diagnostics,2015,0
+Paper diagnostics,2016,3
+Implantable electronics,2001,1
+Implantable electronics,2002,6
+Implantable electronics,2003,1
+Implantable electronics,2004,3
+Implantable electronics,2005,3
+Implantable electronics,2006,2
+Implantable electronics,2007,2
+Implantable electronics,2008,6
+Implantable electronics,2009,1
+Implantable electronics,2010,3
+Implantable electronics,2011,5
+Implantable electronics,2012,13
+Implantable electronics,2013,14
+Implantable electronics,2014,7
+Implantable electronics,2015,8
+Implantable electronics,2016,9
+T-Rays,2001,21
+T-Rays,2002,24
+T-Rays,2003,17
+T-Rays,2004,29
+T-Rays,2005,30
+T-Rays,2006,29
+T-Rays,2007,30
+T-Rays,2008,37
+T-Rays,2009,20
+T-Rays,2010,45
+T-Rays,2011,33
+T-Rays,2012,26
+T-Rays,2013,11
+T-Rays,2014,17
+T-Rays,2015,19
+T-Rays,2016,16
+Synthetic Biology,2001,0
+Synthetic Biology,2002,0
+Synthetic Biology,2003,3
+Synthetic Biology,2004,7
+Synthetic Biology,2005,21
+Synthetic Biology,2006,19
+Synthetic Biology,2007,42
+Synthetic Biology,2008,67
+Synthetic Biology,2009,71
+Synthetic Biology,2010,85
+Synthetic Biology,2011,106
+Synthetic Biology,2012,87
+Synthetic Biology,2013,154
+Synthetic Biology,2014,203
+Synthetic Biology,2015,169
+Synthetic Biology,2016,135
+RNA Interference,2001,4
+RNA Interference,2002,15
+RNA Interference,2003,89
+RNA Interference,2004,103
+RNA Interference,2005,114
+RNA Interference,2006,127
+RNA Interference,2007,90
+RNA Interference,2008,118
+RNA Interference,2009,81
+RNA Interference,2010,146
+RNA Interference,2011,107
+RNA Interference,2012,84
+RNA Interference,2013,97
+RNA Interference,2014,97
+RNA Interference,2015,55
+RNA Interference,2016,64
+Brain-Machine Interface,2001,5
+Brain-Machine Interface,2002,3
+Brain-Machine Interface,2003,2
+Brain-Machine Interface,2004,9
+Brain-Machine Interface,2005,4
+Brain-Machine Interface,2006,4
+Brain-Machine Interface,2007,16
+Brain-Machine Interface,2008,7
+Brain-Machine Interface,2009,15
+Brain-Machine Interface,2010,22
+Brain-Machine Interface,2011,28
+Brain-Machine Interface,2012,23
+Brain-Machine Interface,2013,29
+Brain-Machine Interface,2014,26
+Brain-Machine Interface,2015,31
+Brain-Machine Interface,2016,45
+quantum computers,2001,24
+quantum computers,2002,10
+quantum computers,2003,12
+quantum computers,2004,19
+quantum computers,2005,22
+quantum computers,2006,22
+quantum computers,2007,28
+quantum computers,2008,22
+quantum computers,2009,24
+quantum computers,2010,33
+quantum computers,2011,47
+quantum computers,2012,65
+quantum computers,2013,62
+quantum computers,2014,73
+quantum computers,2015,91
+quantum computers,2016,134
+nano architecture,2001,0
+nano architecture,2002,0
+nano architecture,2003,0
+nano architecture,2004,0
+nano architecture,2005,0
+nano architecture,2006,1
+nano architecture,2007,0
+nano architecture,2008,0
+nano architecture,2009,0
+nano architecture,2010,0
+nano architecture,2011,0
+nano architecture,2012,0
+nano architecture,2013,0
+nano architecture,2014,0
+nano architecture,2015,0
+nano architecture,2016,0
+Microscale 3d printing,2001,0
+Microscale 3d printing,2002,0
+Microscale 3d printing,2003,0
+Microscale 3d printing,2004,0
+Microscale 3d printing,2005,0
+Microscale 3d printing,2006,0
+Microscale 3d printing,2007,0
+Microscale 3d printing,2008,0
+Microscale 3d printing,2009,0
+Microscale 3d printing,2010,0
+Microscale 3d printing,2011,0
+Microscale 3d printing,2012,0
+Microscale 3d printing,2013,0
+Microscale 3d printing,2014,1
+Microscale 3d printing,2015,1
+Microscale 3d printing,2016,1
+Nanopore sequencing,2001,0
+Nanopore sequencing,2002,0
+Nanopore sequencing,2003,0
+Nanopore sequencing,2004,0
+Nanopore sequencing,2005,0
+Nanopore sequencing,2006,1
+Nanopore sequencing,2007,0
+Nanopore sequencing,2008,1
+Nanopore sequencing,2009,0
+Nanopore sequencing,2010,1
+Nanopore sequencing,2011,1
+Nanopore sequencing,2012,3
+Nanopore sequencing,2013,2
+Nanopore sequencing,2014,0
+Nanopore sequencing,2015,0
+Nanopore sequencing,2016,2
+Light-field photography,2001,0
+Light-field photography,2002,0
+Light-field photography,2003,0
+Light-field photography,2004,0
+Light-field photography,2005,0
+Light-field photography,2006,0
+Light-field photography,2007,0
+Light-field photography,2008,0
+Light-field photography,2009,0
+Light-field photography,2010,0
+Light-field photography,2011,4
+Light-field photography,2012,8
+Light-field photography,2013,16
+Light-field photography,2014,7
+Light-field photography,2015,3
+Light-field photography,2016,3
+$100 genome,2001,0
+$100 genome,2002,0
+$100 genome,2003,0
+$100 genome,2004,1
+$100 genome,2005,1
+$100 genome,2006,0
+$100 genome,2007,0
+$100 genome,2008,5
+$100 genome,2009,1
+$100 genome,2010,0
+$100 genome,2011,1
+$100 genome,2012,2
+$100 genome,2013,2
+$100 genome,2014,0
+$100 genome,2015,0
+$100 genome,2016,2
+Traveling wave reactor,2001,0
+Traveling wave reactor,2002,0
+Traveling wave reactor,2003,0
+Traveling wave reactor,2004,0
+Traveling wave reactor,2005,0
+Traveling wave reactor,2006,0
+Traveling wave reactor,2007,0
+Traveling wave reactor,2008,0
+Traveling wave reactor,2009,1
+Traveling wave reactor,2010,1
+Traveling wave reactor,2011,2
+Traveling wave reactor,2012,0
+Traveling wave reactor,2013,5
+Traveling wave reactor,2014,2
+Traveling wave reactor,2015,1
+Traveling wave reactor,2016,1
+Racetrack memory,2001,0
+Racetrack memory,2002,0
+Racetrack memory,2003,0
+Racetrack memory,2004,0
+Racetrack memory,2005,0
+Racetrack memory,2006,0
+Racetrack memory,2007,0
+Racetrack memory,2008,4
+Racetrack memory,2009,0
+Racetrack memory,2010,1
+Racetrack memory,2011,0
+Racetrack memory,2012,0
+Racetrack memory,2013,0
+Racetrack memory,2014,1
+Racetrack memory,2015,0
+Racetrack memory,2016,0
+Nanopiezoelectronics,2001,0
+Nanopiezoelectronics,2002,0
+Nanopiezoelectronics,2003,0
+Nanopiezoelectronics,2004,0
+Nanopiezoelectronics,2005,0
+Nanopiezoelectronics,2006,0
+Nanopiezoelectronics,2007,0
+Nanopiezoelectronics,2008,0
+Nanopiezoelectronics,2009,0
+Nanopiezoelectronics,2010,0
+Nanopiezoelectronics,2011,0
+Nanopiezoelectronics,2012,0
+Nanopiezoelectronics,2013,0
+Nanopiezoelectronics,2014,0
+Nanopiezoelectronics,2015,0
+Nanopiezoelectronics,2016,0
+Graphene,2001,0
+Graphene,2002,0
+Graphene,2003,0
+Graphene,2004,1
+Graphene,2005,0
+Graphene,2006,3
+Graphene,2007,7
+Graphene,2008,19
+Graphene,2009,38
+Graphene,2010,101
+Graphene,2011,120
+Graphene,2012,122
+Graphene,2013,198
+Graphene,2014,214
+Graphene,2015,288
+Graphene,2016,258
+Nano radio,2001,0
+Nano radio,2002,0
+Nano radio,2003,0
+Nano radio,2004,0
+Nano radio,2005,1
+Nano radio,2006,0
+Nano radio,2007,2
+Nano radio,2008,2
+Nano radio,2009,0
+Nano radio,2010,0
+Nano radio,2011,0
+Nano radio,2012,0
+Nano radio,2013,0
+Nano radio,2014,0
+Nano radio,2015,0
+Nano radio,2016,0
+Nanomedicine,2001,1
+Nanomedicine,2002,0
+Nanomedicine,2003,2
+Nanomedicine,2004,16
+Nanomedicine,2005,13
+Nanomedicine,2006,27
+Nanomedicine,2007,23
+Nanomedicine,2008,34
+Nanomedicine,2009,55
+Nanomedicine,2010,54
+Nanomedicine,2011,68
+Nanomedicine,2012,60
+Nanomedicine,2013,76
+Nanomedicine,2014,103
+Nanomedicine,2015,120
+Nanomedicine,2016,95
+Nanobiomechanics,2001,0
+Nanobiomechanics,2002,0
+Nanobiomechanics,2003,0
+Nanobiomechanics,2004,0
+Nanobiomechanics,2005,0
+Nanobiomechanics,2006,0
+Nanobiomechanics,2007,0
+Nanobiomechanics,2008,0
+Nanobiomechanics,2009,0
+Nanobiomechanics,2010,0
+Nanobiomechanics,2011,0
+Nanobiomechanics,2012,0
+Nanobiomechanics,2013,0
+Nanobiomechanics,2014,0
+Nanobiomechanics,2015,0
+Nanobiomechanics,2016,0
+Silicon Photonics,2001,2
+Silicon Photonics,2002,0
+Silicon Photonics,2003,0
+Silicon Photonics,2004,2
+Silicon Photonics,2005,9
+Silicon Photonics,2006,14
+Silicon Photonics,2007,15
+Silicon Photonics,2008,14
+Silicon Photonics,2009,6
+Silicon Photonics,2010,18
+Silicon Photonics,2011,12
+Silicon Photonics,2012,23
+Silicon Photonics,2013,39
+Silicon Photonics,2014,49
+Silicon Photonics,2015,31
+Silicon Photonics,2016,52
+Microfluidics,2001,80
+Microfluidics,2002,55
+Microfluidics,2003,50
+Microfluidics,2004,67
+Microfluidics,2005,53
+Microfluidics,2006,66
+Microfluidics,2007,56
+Microfluidics,2008,91
+Microfluidics,2009,67
+Microfluidics,2010,99
+Microfluidics,2011,124
+Microfluidics,2012,60
+Microfluidics,2013,88
+Microfluidics,2014,114
+Microfluidics,2015,84
+Microfluidics,2016,103
+Quantum Wires,2001,0
+Quantum Wires,2002,0
+Quantum Wires,2003,0
+Quantum Wires,2004,0
+Quantum Wires,2005,0
+Quantum Wires,2006,0
+Quantum Wires,2007,0
+Quantum Wires,2008,1
+Quantum Wires,2009,0
+Quantum Wires,2010,0
+Quantum Wires,2011,1
+Quantum Wires,2012,1
+Quantum Wires,2013,0
+Quantum Wires,2014,0
+Quantum Wires,2015,0
+Quantum Wires,2016,3
+Magnetic-Resonance Force Microscopy,2001,0
+Magnetic-Resonance Force Microscopy,2002,0
+Magnetic-Resonance Force Microscopy,2003,0
+Magnetic-Resonance Force Microscopy,2004,0
+Magnetic-Resonance Force Microscopy,2005,0
+Magnetic-Resonance Force Microscopy,2006,0
+Magnetic-Resonance Force Microscopy,2007,1
+Magnetic-Resonance Force Microscopy,2008,0
+Magnetic-Resonance Force Microscopy,2009,2
+Magnetic-Resonance Force Microscopy,2010,1
+Magnetic-Resonance Force Microscopy,2011,0
+Magnetic-Resonance Force Microscopy,2012,0
+Magnetic-Resonance Force Microscopy,2013,0
+Magnetic-Resonance Force Microscopy,2014,0
+Magnetic-Resonance Force Microscopy,2015,0
+Magnetic-Resonance Force Microscopy,2016,0
+Nanowires,2001,49
+Nanowires,2002,64
+Nanowires,2003,60
+Nanowires,2004,104
+Nanowires,2005,128
+Nanowires,2006,178
+Nanowires,2007,179
+Nanowires,2008,162
+Nanowires,2009,164
+Nanowires,2010,190
+Nanowires,2011,156
+Nanowires,2012,138
+Nanowires,2013,147
+Nanowires,2014,157
+Nanowires,2015,157
+Nanowires,2016,195
+Fullerene,2001,5
+Fullerene,2002,2
+Fullerene,2003,1
+Fullerene,2004,13
+Fullerene,2005,3
+Fullerene,2006,2
+Fullerene,2007,7
+Fullerene,2008,8
+Fullerene,2009,13
+Fullerene,2010,12
+Fullerene,2011,6
+Fullerene,2012,5
+Fullerene,2013,7
+Fullerene,2014,6
+Fullerene,2015,10
+Fullerene,2016,6
+self-driving car,2001,67
+self-driving car,2002,53
+self-driving car,2003,60
+self-driving car,2004,70
+self-driving car,2005,142
+self-driving car,2006,143
+self-driving car,2007,108
+self-driving car,2008,129
+self-driving car,2009,166
+self-driving car,2010,169
+self-driving car,2011,144
+self-driving car,2012,271
+self-driving car,2013,417
+self-driving car,2014,639
+self-driving car,2015,1235
+self-driving car,2016,2674
+face detecting systems,2001,30
+face detecting systems,2002,31
+face detecting systems,2003,3
+face detecting systems,2004,12
+face detecting systems,2005,5
+face detecting systems,2006,13
+face detecting systems,2007,19
+face detecting systems,2008,29
+face detecting systems,2009,22
+face detecting systems,2010,13
+face detecting systems,2011,11
+face detecting systems,2012,9
+face detecting systems,2013,7
+face detecting systems,2014,17
+face detecting systems,2015,17
+face detecting systems,2016,6
+botnets of things,2001,0
+botnets of things,2002,0
+botnets of things,2003,0
+botnets of things,2004,0
+botnets of things,2005,0
+botnets of things,2006,0
+botnets of things,2007,0
+botnets of things,2008,0
+botnets of things,2009,0
+botnets of things,2010,0
+botnets of things,2011,0
+botnets of things,2012,0
+botnets of things,2013,0
+botnets of things,2014,0
+botnets of things,2015,0
+botnets of things,2016,11
+reinforcement learning,2001,0
+reinforcement learning,2002,0
+reinforcement learning,2003,0
+reinforcement learning,2004,1
+reinforcement learning,2005,0
+reinforcement learning,2006,0
+reinforcement learning,2007,0
+reinforcement learning,2008,1
+reinforcement learning,2009,0
+reinforcement learning,2010,1
+reinforcement learning,2011,3
+reinforcement learning,2012,1
+reinforcement learning,2013,0
+reinforcement learning,2014,7
+reinforcement learning,2015,3
+reinforcement learning,2016,4
+conversational interfaces,2001,12
+conversational interfaces,2002,3
+conversational interfaces,2003,0
+conversational interfaces,2004,0
+conversational interfaces,2005,1
+conversational interfaces,2006,1
+conversational interfaces,2007,0
+conversational interfaces,2008,0
+conversational interfaces,2009,1
+conversational interfaces,2010,0
+conversational interfaces,2011,1
+conversational interfaces,2012,3
+conversational interfaces,2013,7
+conversational interfaces,2014,4
+conversational interfaces,2015,6
+conversational interfaces,2016,16
+wireless power,2001,27
+wireless power,2002,17
+wireless power,2003,26
+wireless power,2004,35
+wireless power,2005,97
+wireless power,2006,129
+wireless power,2007,116
+wireless power,2008,107
+wireless power,2009,65
+wireless power,2010,84
+wireless power,2011,86
+wireless power,2012,112
+wireless power,2013,104
+wireless power,2014,133
+wireless power,2015,121
+wireless power,2016,134

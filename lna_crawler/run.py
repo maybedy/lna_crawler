@@ -97,7 +97,7 @@ class Run(object):
     def _periodic_search(self, keywords, period_list:list):
         for period in period_list:
             result = self._search(keywords, period)
-            if result:
+            if result is not None:
                 result = Result(keywords, period, result)
                 get_collection(db_name= self.db_name, collection_name=result_name).insert_one(result.to_json())
             else:
@@ -106,7 +106,7 @@ class Run(object):
     def _yearly_search(self, keywords, year:int):
         period = Period(year, 1, year, 12)
         result = self._search(keywords, period)
-        if result:
+        if result is not None:
             if result < 3000:
                 result = Result(keywords, period, result)
                 get_collection(db_name=self.db_name, collection_name=result_name).insert_one(result.to_json())
@@ -145,14 +145,52 @@ class Run(object):
         file = open(self.output_path, 'w')
         print("Make Report !")
         pbar = tqdm(total = len(self.keywords_list) * (self.to_year - self.from_year + 1))
+        result_collection = get_collection(db_name=self.db_name, collection_name=result_name)
         for keywords in self.keywords_list:
-            keywords_id = "|".join(sorted(keywords))
+            keywords_id = keywords["id"]
             for year in range(self.from_year, self.to_year+1):
-                yearly_results = get_collection(db_name=self.db_name, collection_name=result_name).find({"keywords_id": keywords_id, "from_year": year})
+                result_count = result_collection.count({"keywords_id": keywords_id, "from_year": year})
+                if result_count == 0:
+                    print("lack of result - search again : {}-{}".format(year, keywords_id))
+                    self._yearly_search(keywords, year)
                 count = 0
-                for result in yearly_results:
-                    count += result["result"]
-                file.write(",".join([keywords_id, str(year), str(count)]))
+                while True:
+                    count = 0
+                    finished = True
+                    year_count_one = False
+                    yearly_results = result_collection.find({"keywords_id": keywords_id, "from_year": year})
+                    already_checked = []
+                    for result in yearly_results:
+                        from_month = result['from_month']
+                        to_month = result['to_month']
+
+                        if from_month in already_checked:
+                            print("double result - {}.{} : {}".format(year, from_month, keywords_id))
+                            continue
+                        if from_month == 1 and to_month == 12:
+                            year_count_one = True
+                            count = result["result"]
+                            break
+                        else:
+                            count += result["result"]
+                            already_checked.append(from_month)
+                    if not year_count_one:
+                        period_list = []
+                        for i in range(6):
+                            month = i * 2 + 1
+                            if month not in already_checked:
+                                print("Unfinished period occur")
+                                finished = False
+                                period = Period(year, month, year, month+1)
+                                period_list.append(period)
+                        if not finished:
+                            self._periodic_search(keywords, period_list)
+                        else:
+                            break
+                    else:
+                        break
+                file.write(",".join([keywords_id, str(year), str(count)]) + "\n")
+                file.flush()
                 pbar.update(1)
 
     def _resolve_errors(self):
@@ -173,8 +211,8 @@ class Run(object):
                     count += 1
                     from_year = error['from_year']
                     from_month = error['from_month']
-                    to_year = error['to_date']
-                    to_month = error['to_date']
+                    to_year = error['to_year']
+                    to_month = error['to_month']
                     keywords = {'id': error['id'], 'keywords': error['keywords']}
                     if from_month == 1 and to_month == 12:
                         self._yearly_search(keywords, from_year)
@@ -188,18 +226,9 @@ class Run(object):
 
     def run(self, thread_count=1):
         thread_list = []
-        keywords_list = self._divide_keywords_list(thread_count)
+        # keywords_list = self._divide_keywords_list(thread_count)
 
         print("Crawling start!")
-        self._get_result(keywords_list[0])
-        #
-        # for i in range(thread_count):
-        #     t = Thread(target=self._get_result, kwargs={'keywords_list': keywords_list[i]}, name="T"+str(i))
-        #     t.start()
-        #     thread_list.append(t)
-        #
-        # for i in range(thread_count):
-        #     thread_list[i].join()
-
+        #self._get_result(keywords_list[0])
         self._resolve_errors()
         self._make_report()

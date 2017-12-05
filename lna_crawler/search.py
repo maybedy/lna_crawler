@@ -11,8 +11,8 @@ class Search(object):
         config_parser.read("./crawler_config.ini")
         self.b_pbar = b_pbar
         self.url = config_parser["crawler"]["url"]
-        self.driver = webdriver.Chrome()
-        self.driver.implicitly_wait(10)
+        self.driver = webdriver.Chrome('./chromedriver.exe')
+        self.driver.implicitly_wait(3)
 
     def search(self, keywords, from_date, to_date):
         self._init_page()
@@ -74,20 +74,44 @@ class Search(object):
         search_button.click()
 
     def _parse_result(self): # TODO
-        frame = self.driver.find_element_by_id('mainFrame')
-        self.driver.switch_to.frame(frame)
-        element = self.driver.find_element_by_class_name("L0")
-        if "No Documents Found" in element.text:
-            print("[RESULT - {}]".format(0))
-            return 0
+        no_doc = False
+        no_multi_result_count = False
+        no_one_result_count = False
+        try:
+            element = self.driver.find_element_by_class_name("L0")
+            if "No Documents Found" in element.text:
+                print("[RESULT - {}]".format(0))
+                return 0
+            elif "More than" in element.text:
+                print("[RESULT - {}]".format(3000))
+                return 3000
+        except:
+            no_doc = True
+        try:
+            if no_doc:
+                left_frame = self.driver.find_element_by_css_selector("frame[title='Results Classification Frame']")
+                self.driver.switch_to.frame(left_frame)
+                element = self.driver.find_element_by_class_name("Text3")
+                tds = element.find_elements_by_css_selector("td")
+                result = tds[0].text
+                result = result.replace("All Results", "")
+                result = result.strip()
+                result = result.replace("(", "").replace(")", "")
+                result = int(result)
+                print("[RESULT - {}]".format(result))
+                return result
+        except:
+            no_multi_result_count = True
 
-        left_frame = self.driver.find_element_by_css_selector("frame[title='Results Classification Frame']")
-        self.driver.switch_to.frame(left_frame)
-        element = self.driver.find_element_by_class_name("Text3")
-        tds = element.find_elements_by_css_selector("td")
-        result = tds[0].text
-        result = result.strip()
-        result = result.replace("(", "").replace(")", "")
-        result = int(result)
-        print("[RESULT - {}]".format(result))
-        return result
+        try:
+            if no_doc and no_multi_result_count:
+                result_frame = self.driver.find_element_by_css_selector("frame[title='Results Navigation Frame']")
+                self.driver.switch_to.frame(result_frame)
+                doc_result = self.driver.find_element_by_name("totalDocsInResult")
+                result = int(doc_result.get_attribute("value"))
+                print("[RESULT - {}]".format(result))
+                return result
+        except:
+            no_one_result_count = True
+        if no_one_result_count and no_multi_result_count and no_doc:
+            raise Exception()
